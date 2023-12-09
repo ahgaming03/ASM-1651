@@ -80,7 +80,6 @@ namespace ASM_1651
 
         public override void OutputInfo()
         {
-
             base.OutputInfo();
             Console.WriteLine("\t - Basic Salary: $" + BasicSalary);
 
@@ -99,7 +98,5 @@ namespace ASM_1651
 
             Console.WriteLine("\t - OverTime: " + OverTime);
         }
-
-
     }
 }

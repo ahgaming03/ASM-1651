@@ -29,8 +29,6 @@ namespace ASM_1651
             WorkHour = hour;
         }
 
-
-
         public override void OutputInfo()
         {
             base.OutputInfo();

@@ -64,7 +64,6 @@ namespace ASM_1651
                         else
                         {
                             Console.WriteLine($"Employees with name \"{findName}\" not found.");
-
                         }
                         break;
                     case "7":
@@ -85,7 +84,7 @@ namespace ASM_1651
                         Console.WriteLine("BYE");
                         break;
                     default:
-                        Console.ForegroundColor= ConsoleColor.Red; // Alert is red
+                        Console.ForegroundColor = ConsoleColor.Red; // Alert is red
                         Console.WriteLine("Invalid your selection. Please try again!!!");
                         Console.ResetColor();
                         break;

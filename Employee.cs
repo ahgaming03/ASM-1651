@@ -19,10 +19,10 @@ namespace ASM_1651
             Id = Console.ReadLine();
             Console.Write("Input Full Name: ");
             FullName = Console.ReadLine();
-            Console.Write("Input Year of birth:");
+            Console.Write("Input Year of birth: ");
             int year;
-            while(!int.TryParse(Console.ReadLine(), out year) || year < 1900 || year > 2000)
-                Console.Write("Wrong input, please re-enter (1900-2000): ");
+            while(!int.TryParse(Console.ReadLine(), out year))
+                Console.Write("Wrong input, please re-enter: ");
             YearOfBirth = year;
             Console.Write("Input Address: ");
             Address = Console.ReadLine();
@@ -40,6 +40,5 @@ namespace ASM_1651
         {
             return 0;
         }
-
     }
 }
